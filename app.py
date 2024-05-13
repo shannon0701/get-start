@@ -21,7 +21,7 @@ image = Image.from_registry(IMAGE, auth=BasicAuth(
     ))
 
 app = App(
-    'get-start',
+    'shannon-demo',
     image=image,
     volume_requests=[
         VolumeRequest(name=VOLUME_NAME, create_if_not_exists=True),
